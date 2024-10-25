@@ -4,6 +4,8 @@ import faqData from "./faqQuestion.json";
 const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
+
+
 export async function getFAQResponse(question) {
   const model = genAI.getGenerativeModel({
     model: "gemini-pro", generationConfig: {
@@ -11,55 +13,57 @@ export async function getFAQResponse(question) {
       temperature: 0.8,
     }
   });
-  function formatCompanyData(data) {
-    let result = '';
+  // function formatCompanyData(data) {
+  //   let result = '';
 
-    for (const key in data) {
-      if (Array.isArray(data[key])) {
-        result += `${key}:\n`;
-        data[key].forEach(item => {
-          if (typeof item === 'object') {
-            for (const subKey in item) {
-              result += `  - ${subKey}: ${item[subKey]}\n`;
-            }
-          } else {
-            result += `  - ${item}\n`;
-          }
-        });
-      } else if (typeof data[key] === 'object') {
-        result += `${key}:\n`;
-        for (const subKey in data[key]) {
-          if (Array.isArray(data[key][subKey])) {
-            result += `  - ${subKey}:\n`;
-            data[key][subKey].forEach(service => {
-              if (typeof service === 'object') {
-                for (const innerKey in service) {
-                  result += `    - ${innerKey}: ${service[innerKey]}\n`;
-                }
-              } else {
-                result += `    - ${service}\n`;
-              }
-            });
-          } else {
-            // Handle cases where subKey is an object (like hours_of_operation)
-            if (typeof data[key][subKey] === 'object') {
-              result += `  - ${subKey}:\n`;
-              for (const hourKey in data[key][subKey]) {
-                result += `    - ${hourKey}: ${data[key][subKey][hourKey]}\n`;
-              }
-            } else {
-              result += `  - ${subKey}: ${data[key][subKey]}\n`;
-            }
-          }
-        }
-      } else {
-        result += `${key}: ${data[key]}\n`;
-      }
-    }
+  //   for (const key in data) {
+  //     if (Array.isArray(data[key])) {
+  //       result += `${key}:\n`;
+  //       data[key].forEach(item => {
+  //         if (typeof item === 'object') {
+  //           for (const subKey in item) {
+  //             result += `  - ${subKey}: ${item[subKey]}\n`;
+  //           }
+  //         } else {
+  //           result += `  - ${item}\n`;
+  //         }
+  //       });
+  //     } else if (typeof data[key] === 'object') {
+  //       result += `${key}:\n`;
+  //       for (const subKey in data[key]) {
+  //         if (Array.isArray(data[key][subKey])) {
+  //           result += `  - ${subKey}:\n`;
+  //           data[key][subKey].forEach(service => {
+  //             if (typeof service === 'object') {
+  //               for (const innerKey in service) {
+  //                 result += `    - ${innerKey}: ${service[innerKey]}\n`;
+  //               }
+  //             } else {
+  //               result += `    - ${service}\n`;
+  //             }
+  //           });
+  //         } else {
+  //           // Handle cases where subKey is an object (like hours_of_operation)
+  //           if (typeof data[key][subKey] === 'object') {
+  //             result += `  - ${subKey}:\n`;
+  //             for (const hourKey in data[key][subKey]) {
+  //               result += `    - ${hourKey}: ${data[key][subKey][hourKey]}\n`;
+  //             }
+  //           } else {
+  //             result += `  - ${subKey}: ${data[key][subKey]}\n`;
+  //           }
+  //         }
+  //       }
+  //     } else {
+  //       result += `${key}: ${data[key]}\n`;
+  //     }
+  //   }
 
-    return result;
-  }
-  const formattedCompanyData = formatCompanyData(faqData?.companyData);
+  //   return result;
+  // }
+  // const formattedCompanyData = formatCompanyData(faqData?.companyData);
+
+
   const prompt = `You are Simplified Bot, a friendly and helpful AI assistant for Simplified Lending, a financial services company in The Bahamas. Your goal is to provide concise and informative short answers in maximum 50-100 words to customer questions about the company and its services. Always maintain a friendly and professional tone, and ensure your responses are accurate and easy to understand.
 
 Remember to:
@@ -83,7 +87,7 @@ User:  Do you offer loans to businesses?
 Simplified Bot:  Yes, we do! We offer a variety of commercial loans to help businesses grow and succeed. You can learn more about our commercial loan options on our website or by contacting us directly.
 
 ${faqData.questionData.map(faq => `Q: ${faq.question}\nA: ${faq.answer}`).join('\n\n')}
-${formattedCompanyData}
+${faqData.companyData}
 If the user asks something that is a general greeting or doesn't have a direct answer in the FAQ, respond politely and offer your assistance in other ways.
 
 For example, if the user greets you with 'hello' or 'hi', respond in a friendly manner. If the question is related to the FAQ, provide a precise answer from the data.

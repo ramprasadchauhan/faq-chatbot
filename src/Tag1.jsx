@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { IoIosSend } from "react-icons/io";
 import { FaMicrophone, FaStopCircle } from "react-icons/fa";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
-import { getFAQResponse } from "./geminiService";
+import { getFAQResponse } from "./apiServices";
 import { useSpeechSynthesis } from "react-speech-kit";
 import ReactMarkdown from "react-markdown";
 import faqData from "./tag.json";
@@ -145,7 +145,7 @@ const App = () => {
                 {chat.sender === "bot" ? (
                   <div className="flex">
                     <div
-                      className={`p-2 bg-white text-gray-800 font-[400] rounded-t-xl rounded-br-xl`}
+                      className={`p-3 bg-white text-gray-800 font-[400] text-[15px] leading-5 rounded-t-xl rounded-br-xl`}
                     >
                       <ReactMarkdown>{chat.text}</ReactMarkdown>
                     </div>
@@ -164,7 +164,7 @@ const App = () => {
                   </div>
                 ) : (
                   <div
-                    className={`p-2 bg-green-200 text-black ml-3 rounded-t-xl rounded-bl-xl`}
+                    className={`p-2 bg-green-200 text-black text-[15px] leading-5  ml-3 rounded-t-xl rounded-bl-xl`}
                   >
                     <ReactMarkdown>{chat.text}</ReactMarkdown>
                   </div>
