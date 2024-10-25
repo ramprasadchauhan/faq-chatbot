@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+
+  .btn1 {
+    position: relative;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 0px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    align-content: center;
+    float: right;
+  }
+  
+  .btn--snakeBorder {
+    background: transparent;
+    overflow: hidden;
+  }
+  .btn--snakeBorder::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+  }
+  .btn--snakeBorder span {
+    position: absolute;
+  }
+  .btn--snakeBorder span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #00562f, #13da91);
+    animation: borderAnimation1 3s linear infinite;
+  }
+  @keyframes borderAnimation1 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  .btn--snakeBorder span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #00562f, #13da91);
+    animation: borderAnimation2 3s linear infinite;
+    animation-delay: 2s;
+  }
+  @keyframes borderAnimation2 {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  .btn--snakeBorder span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to left, #00562f, #13da91);
+    animation: borderAnimation3 3s linear infinite;
+  }
+  @keyframes borderAnimation3 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .btn--snakeBorder span:nth-child(4) {
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to top, #00562f, #13da91);
+    animation: borderAnimation4 2s linear infinite;
+    animation-delay: 2s;
+  }
+  @keyframes borderAnimation4 {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .loanbot { height: 30px }
+  .home-icon { height: 45px; }
+  .logo { height: 65px; }
+
+  .body-bg {
+    height: calc(100vh - 0px) !important;
+    background-image: url(https://admin.swiftlendingservices.com/media/bg-ZZG2UIAT.jpg);
+    background-repeat: repeat;
+  }
+
+
+  .skeleton-tag {
+    width: 100px;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    animation: shimmer 1.2s infinite linear;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+  

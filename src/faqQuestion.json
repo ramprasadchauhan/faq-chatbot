@@ -1,0 +1,567 @@
+{
+  "companyData": {
+    "company_name": "Simplified Lending Limited",
+    "tagline": "We simplify the process for accessing capital.",
+    "website": "https://www.simplifiedlendingbahamas.com",
+    "overview": "Simplified Lending is a Bahamian financial services company that simplifies the process of securing funding for individuals and businesses. They offer a wide range of services, including personal and commercial loans, mortgages, and investment opportunities. With over 250 years of combined experience in the financial sector, they are committed to providing personalized solutions and excellent customer service. They are the largest mortgage and money brokering firm in the Bahamas, with access to local, regional, and international lenders.",
+    "mission": "To simplify the process of accessing capital and provide innovative financial solutions for clients.",
+    "vision": "To be the leading provider of financial services in the Bahamas, known for its commitment to customer satisfaction and community development.",
+    "values": [
+      "Integrity",
+      "Customer Focus",
+      "Innovation",
+      "Community",
+      "Excellence"
+    ],
+    "focus": {
+      "love_simplified": {
+        "description": "This initiative focuses on supporting children's development and well-being, and assisting with the development and empowerment of inner city and less fortunate communities.",
+        "impact": "Simplified Lending is dedicated to making a positive impact on the lives of children and communities in the Bahamas."
+      }
+    },
+    "industry": "Financial Services",
+    "company_size": "11-50 employees",
+    "headquarters": {
+      "address": "RND Plaza, John F. Kennedy Drive",
+      "city": "Nassau",
+      "country": "The Bahamas"
+    },
+    "founded": 2019,
+    "service": {
+      "personal_loans": {
+        "description": "Offered to both government and private sector employees. Options include debt consolidation and asset-based loans.",
+        "eligibility": "Bahamian citizens or residents with stable employment.",
+        "process": "Simplified Lending guides applicants through the process, helping them gather necessary documents and understand the terms of the loan."
+      },
+      "commercial_loans": {
+        "description": "Provides access to capital for businesses of all sizes, both locally and internationally.",
+        "types": [
+          "Working capital loans",
+          "Equipment financing",
+          "Expansion loans",
+          "Real estate financing"
+        ],
+        "benefits": "Simplified Lending helps businesses secure the funding they need to grow and succeed."
+      },
+      "mortgages": {
+        "description": "Offers a variety of mortgage options for both local and international clients, including first-time home buyers, those seeking to refinance, and non-residents looking to purchase property in the Bahamas.",
+        "types": [
+          "Residential mortgages",
+          "Commercial mortgages",
+          "Non-resident mortgages"
+        ],
+        "expertise": "Simplified Lending has extensive experience in the Bahamian mortgage market and can help clients find the best rates and terms."
+      },
+      "investment_opportunities": {
+        "description": "Identifies and facilitates investment opportunities for investors looking to invest in the Bahamas.",
+        "types": [
+          "Real estate",
+          "Tourism",
+          "Financial services",
+          "Other sectors"
+        ],
+        "benefits": "Simplified Lending connects investors with promising projects and helps them navigate the investment process."
+      }
+    },
+    "non_resident_jumbo_mortgage": {
+      "description": "Specifically designed for non-resident clients looking to purchase high-value properties in the Bahamas.",
+      "benefits": [
+        "Competitive rates and terms",
+        "Accelerated approval process",
+        "Expert guidance"
+      ],
+      "unique_selling_proposition": "Simplified Lending is the only Bahamas-based firm with the expertise and focus on the non-resident second home market for overseas customers."
+    },
+    "contact": {
+      "phone_numbers": ["(242) 603-1730", "(242) 636-4151"],
+      "email": "lovesimplified@slendingbahamas.com",
+      "hours_of_operation": {
+        "monday_to_friday": "9am-5pm (Up to 6:30pm by appointment)",
+        "saturday": "By Appointment Only",
+        "sunday": "Closed"
+      }
+    },
+    "title": "Simplified Lending: Your Partner in Financial Success in The Bahamas",
+    "introduction": "Navigating the world of loans and investments can often feel like venturing into a complicated maze. With countless options and complex terminology, securing the right financial solution for your needs can be a daunting task. That's where Simplified Lending comes in. We're a Bahamian financial services company dedicated to simplifying the process of accessing capital for individuals and businesses alike.",
+    "about_us": {
+      "heading": "More Than Just a Lender",
+      "content": "Founded in 2019, Simplified Lending has quickly become the largest mortgage and money brokering firm in The Bahamas. But we're more than just our size. We pride ourselves on our commitment to customer service, personalized solutions, and community involvement. Our team boasts over 250 years of combined experience in the financial sector, and we leverage this expertise to guide our clients toward financial success."
+    },
+    "services": {
+      "heading": "A Diverse Portfolio of Services",
+      "services_list": [
+        {
+          "name": "Personal Loans",
+          "description": "Tailored to fit your individual needs, whether you're consolidating debt, renovating your home, or facing an unexpected expense. We offer competitive rates and flexible terms to both government and private sector employees."
+        },
+        {
+          "name": "Commercial Loans",
+          "description": "Fuel your business growth with access to capital from both local and international lenders. We offer a range of commercial loan options, including working capital loans, equipment financing, and real estate financing."
+        },
+        {
+          "name": "Mortgages",
+          "description": "Navigate the Bahamian property market with confidence. We offer a variety of mortgage options for residential and commercial properties, catering to both local and international clients. Our expertise in the local market ensures you secure the best possible rates and terms."
+        },
+        {
+          "name": "Non-Resident Jumbo Mortgages",
+          "description": "For those seeking to invest in high-value properties in The Bahamas, we offer specialized jumbo mortgages with competitive rates and an accelerated approval process. We're the only Bahamian firm with a dedicated focus on the non-resident second home market, providing expert guidance to overseas buyers."
+        },
+        {
+          "name": "Investment Opportunities",
+          "description": "Looking to invest in The Bahamas? We can connect you with promising opportunities in various sectors, including real estate, tourism, and financial services. Our team will guide you through the investment process, ensuring a smooth and successful experience."
+        }
+      ]
+    },
+    "community_involvement": {
+      "heading": "Commitment to Community",
+      "content": "At Simplified Lending, we believe in giving back to the community that supports us. Our LOVE Simplified initiative focuses on supporting children's development and well-being, and assisting with the development and empowerment of inner-city and less fortunate communities."
+    },
+    "client_focus": {
+      "heading": "Client-Focused Approach",
+      "content": "We understand that every client is unique, and we strive to provide personalized solutions that meet your specific needs. Our team is dedicated to guiding you through every step of the process, from application to approval, ensuring a smooth and transparent experience."
+    },
+    "privacy": {
+      "heading": "Protecting Your Privacy",
+      "content": "We are committed to protecting your privacy and security. We collect only the necessary information to provide our services and comply with legal obligations. Your information is securely stored and retained for a limited time, after which it is destroyed responsibly."
+    },
+    "call_to_action": {
+      "heading": "Contact Us Today",
+      "content": "Ready to simplify your financial journey? Contact us today to learn more about our services and how we can help you achieve your financial goals."
+    },
+    "conclusion": "Simplified Lending: Your Partner in Financial Success."
+  },
+  "questionData": [
+    {
+      "question": "What is the minimum loan amount for personal loans?",
+      "answer": "Simplified Lending offers personal loans starting at $5,000."
+    },
+    {
+      "question": "What documents are required for a mortgage application?",
+      "answer": "Required documents typically include proof of income, bank statements, and identification. A Simplified Lending representative can provide a complete list of necessary documents."
+    },
+    {
+      "question": "Can non-residents obtain financing for a property purchase in the Bahamas?",
+      "answer": "Yes, Simplified Lending specializes in non-resident mortgages and can help secure financing for overseas buyers."
+    },
+    {
+      "question": "How does Simplified Lending support the community?",
+      "answer": "Through their LOVE Simplified initiative, they focus on children's development and well-being, and assist with the development and empowerment of inner city and less fortunate communities."
+    },
+    {
+      "question": "What types of loans do you offer?",
+      "answer": "We offer personal, auto, and business loans tailored to your specific needs."
+    },
+    {
+      "question": "What is the interest rate for your loans?",
+      "answer": "Interest rates vary based on the loan type and amount. We offer competitive rates."
+    },
+    {
+      "question": "How much can I borrow?",
+      "answer": "The loan amount is based on your income, where you work, how long you work there, your outstanding loan obligation, the amounts you owe, and the loan type you’re applying for."
+    },
+    {
+      "question": "What is the repayment term for the loans?",
+      "answer": "Loan terms vary from a few months to up to 7 years, depending on the loan type."
+    },
+    {
+      "question": "Do I need a down payment for my loan?",
+      "answer": "No down payments are required for most loans, but collateral may be required based on loan types including business loans."
+    },
+    {
+      "question": "What credit score do I need to qualify?",
+      "answer": "While higher credit scores may give you better terms, we work with clients with a range of credit profiles."
+    },
+    {
+      "question": "Can I consolidate existing loans?",
+      "answer": "Yes, we offer a loan consolidation option, which can combine your debts into a single, more manageable payment."
+    },
+    {
+      "question": "What documents do I need to provide?",
+      "answer": "Common documents include but are not limited to a recent job letter and payslip, government-issued ID. For business loans, we will require financial statements."
+    },
+    {
+      "question": "How long does the loan approval process take?",
+      "answer": "Loan approval typically takes between 24 to 48 hours for personal loans, depending on the complexity of the loan. For business loans, it can take up to 1 week once we have received all documents."
+    },
+    {
+      "question": "Is there a fee for applying for a loan?",
+      "answer": "We do not charge any application fee for applying for a loan, but there are loan fees attached to the loan once the loan is disbursed to you."
+    },
+    {
+      "question": "Are the loan fees high?",
+      "answer": "Our fees are competitive and in line with industry standards."
+    },
+    {
+      "question": "What is the repayment schedule?",
+      "answer": "Repayment schedules vary but typically consist of monthly payments over the term of the loan."
+    },
+    {
+      "question": "Can I make extra payments on my loan?",
+      "answer": "Yes, you can make extra payments without any prepayment penalties."
+    },
+    {
+      "question": "How can I make loan payments?",
+      "answer": "Payments are made via salary deduction for personal loans and via post-dated cheques and bank transfer for business loans."
+    },
+    {
+      "question": "What happens if I miss a payment?",
+      "answer": "Missing a payment may incur late fees and affect your credit. It’s important to contact us if you anticipate issues."
+    },
+    {
+      "question": "Can I pay off my loan early?",
+      "answer": "Yes, there is no prepayment penalty for paying off your loan early."
+    },
+    {
+      "question": "Do you offer grace periods for late payments?",
+      "answer": "Depending on the loan type, we may offer a short grace period, but late fees may apply after that period."
+    },
+    {
+      "question": "What are the penalties for defaulting on a loan?",
+      "answer": "Defaulting could lead to the repossession of collateral (if applicable) and a negative impact on your credit score."
+    },
+    {
+      "question": "Can I refinance my loan?",
+      "answer": "Yes, we offer refinancing options if you meet certain qualifications."
+    },
+    {
+      "question": "How is interest calculated on my loan?",
+      "answer": "Interest is calculated at a fixed rate on the principal loan amount."
+    },
+    {
+      "question": "Can I change my repayment date?",
+      "answer": "You can request to change your repayment date, but this must be approved based on your financial circumstances."
+    },
+    {
+      "question": "Do you offer loans to self-employed individuals?",
+      "answer": "Yes, self-employed individuals can apply, but additional documentation and collateral may be required."
+    },
+    {
+      "question": "Can I apply for a loan if I am a part-time employee?",
+      "answer": "No, part-time employees are not eligible for loans."
+    },
+    {
+      "question": "What is the minimum job tenure to qualify for a loan?",
+      "answer": "We generally require a minimum of 12 months for government and quasi-government employees and 5 years for private sector employees on their current job."
+    },
+    {
+      "question": "Do I need to have a bank account to apply for a loan?",
+      "answer": "Yes, a bank account is required for loan disbursement and payments."
+    },
+    {
+      "question": "Can I get a loan if I am on probation at work?",
+      "answer": "It may be more difficult to qualify if you're on probation, but other factors like your credit history may help, especially if you are a government employee."
+    },
+    {
+      "question": "Do I need to be a Bahamian resident to apply for a loan?",
+      "answer": "Yes, Simplified Lending primarily services Bahamian residents or those working in the Bahamas."
+    },
+    {
+      "question": "Can I apply for a loan online?",
+      "answer": "Yes, you can start an application online."
+    },
+    {
+      "question": "What are the age requirements to apply for a loan?",
+      "answer": "You must be at least 18 years old to apply."
+    },
+    {
+      "question": "Can I use my loan to pay off debts from other financial institutions?",
+      "answer": "Yes, we offer debt consolidation services as part of some loan packages."
+    },
+    {
+      "question": "Can I apply for a joint loan with someone else?",
+      "answer": "Yes, you can apply for a joint loan with a co-applicant, such as a spouse or business partner."
+    },
+    {
+      "question": "Can foreigners apply for a loan?",
+      "answer": "Foreigners with proper work permits and stable employment in The Bahamas may be eligible."
+    },
+    {
+      "question": "What is a personal loan?",
+      "answer": "A personal loan is unsecured and can be used for a wide range of purposes, including medical expenses, vacations, and tuition."
+    },
+    {
+      "question": "What is an auto loan?",
+      "answer": "An auto loan is used to finance the purchase of a vehicle, with the car itself serving as collateral."
+    },
+    {
+      "question": "What is a business loan?",
+      "answer": "A business loan provides funding for business operations, expansion, or equipment purchases."
+    },
+    {
+      "question": "What is a home improvement loan?",
+      "answer": "A home improvement loan helps cover the costs of renovations or repairs to your home."
+    },
+    {
+      "question": "What is an emergency loan?",
+      "answer": "An emergency loan is a quick-disbursement loan designed to help cover unforeseen expenses like medical emergencies."
+    },
+    {
+      "question": "Can I use a personal loan to start a business?",
+      "answer": "Starting a business with a personal loan from a financial institution is not recommended; we recommend exploring our business loan products."
+    },
+    {
+      "question": "What is the difference between a secured and unsecured loan?",
+      "answer": "A secured loan requires collateral (such as property or a vehicle), while an unsecured loan does not."
+    },
+    {
+      "question": "Do you offer loans for first-time homebuyers?",
+      "answer": "No, we do not currently offer specific loan products for first-time homebuyers."
+    },
+    {
+      "question": "What are consolidation loans?",
+      "answer": "Consolidation loans allow you to combine multiple debts into one loan, simplifying your monthly payments."
+    },
+    {
+      "question": "What is a line of credit?",
+      "answer": "A line of credit allows you to borrow as needed, up to a predetermined limit, and only pay interest on what you borrow. This is not a product that we currently offer."
+    },
+    {
+      "question": "What types of insurance do you offer?",
+      "answer": "We offer auto, home, health, and life insurance policies tailored to your needs."
+    },
+    {
+      "question": "What is comprehensive insurance?",
+      "answer": "Comprehensive insurance covers damages to your vehicle from non-collision events such as theft, fire, or natural disasters."
+    },
+    {
+      "question": "Do I need to get insurance from Affinity Insurance to qualify for an auto loan?",
+      "answer": "Yes, we require comprehensive insurance with Affinity Insurance or a similar provider for auto loans."
+    },
+    {
+      "question": "Can I get life insurance without a medical exam?",
+      "answer": "Some life insurance policies may not require a medical exam, but terms may vary based on the coverage amount."
+    },
+    {
+      "question": "Do you offer health insurance for families?",
+      "answer": "Yes, we offer health insurance plans that cover individuals and their families."
+    },
+    {
+      "question": "What is term life insurance?",
+      "answer": "Term life insurance provides coverage for a specific period, paying out a benefit only if the insured passes during that term."
+    },
+    {
+      "question": "Can I change my insurance policy?",
+      "answer": "Yes, you can request changes to your policy, which may be subject to approval."
+    },
+    {
+      "question": "What is the claims process for insurance?",
+      "answer": "To file a claim, contact us directly, and we will guide you through the process, requiring necessary documentation."
+    },
+    {
+      "question": "How can I contact customer service?",
+      "answer": "You can reach our customer service via phone, email, or by visiting our office during business hours."
+    },
+    {
+      "question": "What are your office hours?",
+      "answer": "Our office hours are Monday to Friday from 9 AM to 5 PM."
+    },
+    {
+      "question": "Do you have a mobile app?",
+      "answer": "Yes, we offer a mobile app that allows you to manage your loans and insurance policies conveniently."
+    },
+    {
+      "question": "Can I make payments through the app?",
+      "answer": "Yes, you can make payments and manage your account through our mobile app."
+    },
+    {
+      "question": "What if I have more questions?",
+      "answer": "Feel free to reach out to our customer service team for any additional questions or concerns."
+    },
+    {
+      "question": "What does my auto insurance cover?",
+      "answer": "If it is a comprehensive Auto insurance it covers damages to your vehicle, medical expenses in case of an accident, and liability for damages to others."
+    },
+    {
+      "question": "Does health insurance cover emergency services?",
+      "answer": "Yes, our health insurance plans cover emergency medical services, depending on the policy chosen."
+    },
+    {
+      "question": "What does homeowner’s insurance cover?",
+      "answer": "Homeowner’s insurance covers damage to your home, personal belongings, and liability for injuries occurring on your property."
+    },
+    {
+      "question": "What is renters’ insurance?",
+      "answer": "Renters’ insurance covers personal belongings and liability within a rental property but does not cover the physical structure."
+    },
+    {
+      "question": "What is term life insurance?",
+      "answer": "Term life insurance provides coverage for a specific period (e.g., 20 years) and pays a death benefit if you pass away during that term."
+    },
+    {
+      "question": "What is whole life insurance?",
+      "answer": "Whole life insurance provides lifelong coverage with a savings component that grows over time."
+    },
+    {
+      "question": "Can I add riders to my life insurance policy?",
+      "answer": "Yes, riders like critical illness coverage or disability insurance can be added to most life insurance policies."
+    },
+    {
+      "question": "What is disability insurance?",
+      "answer": "Disability insurance provides income replacement if you are unable to work due to illness or injury."
+    },
+    {
+      "question": "What is critical illness insurance?",
+      "answer": "Critical illness insurance pays a lump sum benefit if you're diagnosed with a serious illness, such as cancer or heart disease."
+    },
+    {
+      "question": "Can I insure my business with Affinity Insurance?",
+      "answer": "Yes, we offer commercial insurance products for businesses, including liability and property coverage."
+    },
+    {
+      "question": "How are insurance premiums calculated?",
+      "answer": "Premiums are calculated based on factors like your age, health, occupation, the type of insurance, and the coverage amount."
+    },
+    {
+      "question": "Can I pay my insurance premium monthly?",
+      "answer": "Yes, we offer flexible payment options, including monthly, quarterly, or annually."
+    },
+    {
+      "question": "What happens if I miss a payment on my insurance policy?",
+      "answer": "Missing a payment could result in a lapse in coverage, but we usually offer a grace period to make up the payment."
+    },
+    {
+      "question": "Is there a penalty for canceling my insurance policy early?",
+      "answer": "Some policies may have early cancellation fees; however, this varies by policy."
+    },
+    {
+      "question": "What is the difference between whole life and term life insurance?",
+      "answer": "Term life provides coverage for a set period, while whole life offers lifetime coverage and a cash value component."
+    },
+    {
+      "question": "Can I change my health insurance plan mid-term?",
+      "answer": "Most health insurance plans can be adjusted during the renewal period, but mid-term changes may be restricted."
+    },
+    {
+      "question": "How do I file an insurance claim?",
+      "answer": "You can file a claim by contacting our claims department and providing all necessary documentation."
+    },
+    {
+      "question": "How long does it take to process an insurance claim?",
+      "answer": "The time varies, but auto and health insurance claims are typically processed within a few days to weeks."
+    },
+    {
+      "question": "What is a deductible?",
+      "answer": "A deductible is the amount you must pay out of pocket before the insurance company starts covering expenses."
+    },
+    {
+      "question": "What is a policy limit?",
+      "answer": "A policy limit is the maximum amount your insurance will pay for covered losses."
+    },
+    {
+      "question": "Can I bundle my auto loan with auto insurance?",
+      "answer": "Yes, we offer special packages when you bundle your auto loan with auto insurance from Affinity Insurance."
+    },
+    {
+      "question": "Do you offer special rates for government employees?",
+      "answer": "Yes, we offer special loan and insurance rates for government employees and select employers."
+    },
+    {
+      "question": "Can I insure my loan payments?",
+      "answer": "No we do not offer loan payment protection insurance that covers your loan payments in the event of disability, job loss, or death."
+    },
+    {
+      "question": "What is mortgage protection insurance?",
+      "answer": "Mortgage protection insurance helps cover your mortgage payments in the event of death or disability."
+    },
+    {
+      "question": "Can I add my spouse to my insurance policy?",
+      "answer": "Yes, you can add your spouse and other dependents to most insurance policies."
+    },
+    {
+      "question": "Do you offer coverage for travel?",
+      "answer": "Yes, Affinity Insurance offers travel insurance that covers trip cancellations, medical emergencies, and lost luggage."
+    },
+    {
+      "question": "What is accidental death insurance?",
+      "answer": "Accidental death insurance provides a benefit if you die in an accident."
+    },
+    {
+      "question": "Can I extend the term of my loan?",
+      "answer": "In certain cases, you can extend the term of your loan, but it will require an amendment to your loan agreement."
+    },
+    {
+      "question": "How do I update my insurance beneficiaries?",
+      "answer": "You can update your beneficiaries by contacting Affinity Insurance and completing the necessary paperwork."
+    },
+    {
+      "question": "Do you offer insurance for rental cars?",
+      "answer": "Yes, we provide comprehensive coverage for rental cars, particularly for companies with fleets."
+    },
+    {
+      "question": "How do I contact Affinity Insurance for support?",
+      "answer": "You can reach us by phone, email, or by visiting our website for assistance."
+    },
+    {
+      "question": "Can I track the status of my claim online?",
+      "answer": "This is not a feature that we currently offer but will be working on introducing this feature in the future."
+    },
+    {
+      "question": "What documentation do I need to file an auto insurance claim?",
+      "answer": "You will need a police report, photos of the damage, and repair estimates."
+    },
+    {
+      "question": "What happens if my claim is denied?",
+      "answer": "If your claim is denied, you can appeal the decision by providing additional evidence or documentation."
+    },
+    {
+      "question": "Can I switch insurance providers during a claim?",
+      "answer": "Switching providers during an ongoing claim is not recommended, as it could complicate the process."
+    },
+    {
+      "question": "How are insurance payouts made?",
+      "answer": "Payouts are typically made via direct deposit or check, depending on your preference."
+    },
+    {
+      "question": "Do you offer 24/7 claims support?",
+      "answer": "Yes, our claims support is available 24/7 for emergencies."
+    },
+    {
+      "question": "How can I lower my insurance premium?",
+      "answer": "You can lower your premium by increasing your deductible, bundling policies, or maintaining a good driving record."
+    },
+    {
+      "question": "What happens if my vehicle is a total loss?",
+      "answer": "If your vehicle is a total loss, your insurance will pay out the current market value of the car, minus any deductibles."
+    },
+    {
+      "question": "Can I withdraw the cash value of my whole life insurance policy?",
+      "answer": "Yes, you can withdraw or borrow against the cash value of your whole life policy after a certain period."
+    },
+    {
+      "question": "Do you offer insurance for high-risk drivers?",
+      "answer": "Yes, we have policies available for drivers with a less-than-perfect driving history."
+    },
+    {
+      "question": "Can I apply for insurance if I have pre-existing health conditions?",
+      "answer": "Yes, but your premiums may be higher, and certain conditions may not be covered."
+    },
+    {
+      "question": "What is gap insurance?",
+      "answer": "Gap insurance covers the difference between what you owe on your car loan and its market value if your car is totaled."
+    },
+    {
+      "question": "How do I cancel my insurance policy?",
+      "answer": "You can cancel your policy by contacting us in writing."
+    },
+    {
+      "question": "Can I apply for more than one loan at a time?",
+      "answer": "Yes, you can apply for multiple loans, but approval will depend on your credit and financial situation."
+    },
+    {
+      "question": "What is liability insurance?",
+      "answer": "Liability insurance covers damages you cause to others, including bodily injury and property damage."
+    },
+    {
+      "question": "Can I insure my jewelry or valuable items?",
+      "answer": "Yes, we offer personal property insurance that covers high-value items like jewelry and electronics."
+    },
+    {
+      "question": "What happens if I pass away with an outstanding loan?",
+      "answer": "Your estate or any co-signers would typically be responsible for repaying the loan unless covered by loan payment protection insurance."
+    },
+    {
+      "question": "Can I speak with a financial advisor before taking out a loan or insurance?",
+      "answer": "Yes, we offer consultations with financial advisors to help you make informed decisions."
+    }
+  ]
+}

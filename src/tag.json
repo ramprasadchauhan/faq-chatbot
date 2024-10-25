@@ -1,0 +1,78 @@
+{
+  "General Tags": [
+    "Loans",
+    "Insurance",
+    "Application Process",
+    "Approval Process",
+    "Repayment",
+    "Interest Rates",
+    "Eligibility",
+    "FAQ",
+    "Documentation",
+    "Customer Service"
+  ],
+  "Loans": [
+    "Personal Loans",
+    "Auto Loans",
+    "Business Loans",
+    "Mortgage Loans",
+    "Home Improvement Loans",
+    "Emergency Loans",
+    "Debt Consolidation",
+    "Joint Loans",
+    "Secured Loans",
+    "Unsecured Loans",
+    "Loan Amounts",
+    "Interest Rates",
+    "Loan Terms"
+  ],
+  "Insurance": [
+    "Auto Insurance",
+    "Health Insurance",
+    "Life Insurance",
+    "Home Insurance",
+    "Renters Insurance",
+    "Disability Insurance",
+    "Critical Illness Insurance",
+    "Travel Insurance",
+    "Comprehensive Insurance",
+    "Accidental Death Insurance",
+    "Mortgage Protection Insurance",
+    "High-Risk Drivers",
+    "Personal Property Insurance",
+    "Loans"
+  ],
+  "Eligibility and Requirements": [
+    "Credit Score Requirements",
+    "Job Tenure",
+    "Down Payments",
+    "Bank Account Requirement",
+    "Residency Requirements",
+    "Age Requirements",
+    "Self-Employment",
+    "Part-Time Employment"
+  ],
+  "Payment and Fees": [
+    "Payment Methods",
+    "Payment Schedules",
+    "Late Payments",
+    "Prepayment Penalties",
+    "Application Fees",
+    "Loan Fees"
+  ],
+  "Process and Support": [
+    "Claim Process",
+    "Customer Support",
+    "Contact Information",
+    "Mobile App",
+    "Grace Periods",
+    "Claim Denials",
+    "Payout Process"
+  ],
+  "Miscellaneous": [
+    "Financial Advice",
+    "Policy Changes",
+    "Cancellation Policies",
+    "Bundling Insurance"
+  ]
+}
