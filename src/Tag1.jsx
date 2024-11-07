@@ -62,7 +62,10 @@ const App = () => {
       setLoading(true);
       setChatHistory((prev) => [...prev, { sender: "user", text }]);
       const response = await getFAQResponse(text);
-      setChatHistory((prev) => [...prev, { sender: "bot", text: response }]);
+      setChatHistory((prev) => [
+        ...prev,
+        { sender: "bot", text: response?.trim() },
+      ]);
       speak({ text: response });
       setIsSpeaking(true);
       setCurrentlySpeakingIndex(chatHistory.length);
@@ -119,7 +122,7 @@ const App = () => {
         className="max-w-[1200px] w-full mx-auto flex flex-col"
         style={{ height: "calc(75vh - 80px)", overflowY: "scroll" }}
       >
-        <h1 className="text-2xl font-extrabold my-4 ml-4"> LOANBOT </h1>
+        <h1 className="text-2xl font-extrabold my-4 ml-4">LET&apos;S CHAT </h1>
         <div className="flex-1 p-4 space-y-2">
           {chatHistory.map((chat, index) => (
             <div
@@ -145,7 +148,7 @@ const App = () => {
                 {chat.sender === "bot" ? (
                   <div className="flex">
                     <div
-                      className={`p-3 bg-white text-gray-800 font-[400] text-[15px] leading-5 rounded-t-xl rounded-br-xl`}
+                      className={`p-3 bg-white text-gray-800 font-[400] text-[15px] leading-5 rounded-t-xl rounded-br-xl break-words whitespace-pre-wrap overflow-hidden`}
                     >
                       <ReactMarkdown>{chat.text}</ReactMarkdown>
                     </div>
@@ -164,7 +167,7 @@ const App = () => {
                   </div>
                 ) : (
                   <div
-                    className={`p-2 bg-green-200 text-black text-[15px] leading-5  ml-3 rounded-t-xl rounded-bl-xl`}
+                    className={`p-2 bg-green-200 text-black text-[15px] leading-5  ml-3 rounded-t-xl rounded-bl-xl break-words whitespace-pre-wrap overflow-hidden`}
                   >
                     <ReactMarkdown>{chat.text}</ReactMarkdown>
                   </div>
